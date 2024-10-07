@@ -1,0 +1,27 @@
+digraph CallGraph {
+    "main" -> "add";
+    "main" -> "setSize";
+    "main" -> "add";
+    "main" -> "setSize";
+    "main" -> "add";
+    "main" -> "setFiles";
+    "main" -> "add";
+    "main" -> "setFiles";
+    "main" -> "println";
+    "main" -> "accept";
+    "main" -> "println";
+    "main" -> "accept";
+    "visit" -> "getSize";
+    "visit" -> "size";
+    "visit" -> "getFiles";
+    "visit" -> "accept";
+    "visit" -> "get";
+    "visit" -> "getFiles";
+    "visit" -> "size";
+    "visit" -> "getFiles";
+    "visit" -> "accept";
+    "visit" -> "get";
+    "visit" -> "getFiles";
+    "accept" -> "visit";
+    "accept" -> "visit";
+}
